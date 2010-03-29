@@ -28,16 +28,18 @@ my %WriteMakefileArgs = (
                        'EXE_FILES' => [
                                         'bin/bot-training'
                                       ],
-                       'VERSION' => '0.01',
+                       'VERSION' => '0.02',
                        'PREREQ_PM' => {
                                         'Module::Pluggable' => '0',
                                         'Dir::Self' => '0',
                                         'Pod::Usage' => '0',
                                         'Class::MOP' => '0',
+                                        'MouseX::Types::Mouse' => '0',
                                         'Encode' => '0',
                                         'open' => '0',
-                                        'List::Util' => '0',
                                         'namespace::clean' => '0',
+                                        'MouseX::Getopt::Dashes' => '0',
+                                        'List::Util' => '0',
                                         'File::ShareDir' => '0',
                                         'Any::Moose' => '0',
                                         'autodie' => '0',

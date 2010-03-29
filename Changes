@@ -1,5 +1,10 @@
 Revision history for Bot::Training
 
+0.02 2010-03-29 00:26:26
+
+    - RT#56037: Dist::Zilla::Plugin::AutoPrereq didn't catch our
+      Any::Moose dependencies.
+
 0.01 2010-03-27 18:12:29
 
     - Initial and buggy version

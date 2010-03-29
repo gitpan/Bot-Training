@@ -1,5 +1,5 @@
 package Bot::Training;
-$Bot::Training::VERSION = '0.01';
+$Bot::Training::VERSION = '0.02';
 
 use 5.010;
 use autodie qw(open close);

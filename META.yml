@@ -27,6 +27,8 @@ requires:
   File::Spec::Functions: 0
   List::Util: 0
   Module::Pluggable: 0
+  MouseX::Getopt::Dashes: 0
+  MouseX::Types::Mouse: 0
   Pod::Usage: 0
   autodie: 0
   namespace::clean: 0
@@ -38,4 +40,4 @@ resources:
   homepage: http://search.cpan.org/dist/Bot-Training/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/avar/bot-training
-version: 0.01
+version: 0.02
