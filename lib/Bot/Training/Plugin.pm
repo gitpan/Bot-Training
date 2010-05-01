@@ -1,5 +1,7 @@
 package Bot::Training::Plugin;
-$Bot::Training::Plugin::VERSION = '0.02';
+BEGIN {
+  $Bot::Training::Plugin::VERSION = '0.03';
+}
 
 use 5.010;
 use Any::Moose;

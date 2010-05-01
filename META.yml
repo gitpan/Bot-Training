@@ -9,7 +9,7 @@ build_requires:
   Test::More: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.31
-generated_by: 'Dist::Zilla version 2.100860'
+generated_by: 'Dist::Zilla version 2.101170'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,6 +18,7 @@ name: Bot-Training
 no_index:
   directory:
     - t
+recommends: {}
 requires:
   Any::Moose: 0
   Class::MOP: 0
@@ -40,4 +41,4 @@ resources:
   homepage: http://search.cpan.org/dist/Bot-Training/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/avar/bot-training
-version: 0.02
+version: 0.03

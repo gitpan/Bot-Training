@@ -12,5 +12,4 @@ t/00-compile.t
 t/bot-training.t
 t/lib/Bot/Training/Test.pm
 t/lib/auto/Bot/Training/Test/test.trn
-t/release-pod-coverage.t
 t/release-pod-syntax.t
