@@ -1,5 +1,9 @@
 Revision history for Bot::Training
 
+0.04 2010-05-12 03:41:15
+
+    - Remove X::Types use and depend on Moose/Mouse
+
 0.03 2010-05-01 21:10:00
 
     - Re-release due to Makefile.PL breakage caused by Dist::Zilla

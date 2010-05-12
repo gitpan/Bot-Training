@@ -1,6 +1,6 @@
 package Bot::Training::Plugin;
 BEGIN {
-  $Bot::Training::Plugin::VERSION = '0.03';
+  $Bot::Training::Plugin::VERSION = '0.04';
 }
 
 use 5.010;
