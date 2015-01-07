@@ -1,10 +1,8 @@
 package Bot::Training::Plugin;
-BEGIN {
-  $Bot::Training::Plugin::VERSION = '0.04';
-}
-
+our $AUTHORITY = 'cpan:AVAR';
+$Bot::Training::Plugin::VERSION = '0.05';
 use 5.010;
-use Any::Moose;
+use Moose;
 use File::ShareDir qw< :ALL >;
 use File::Spec::Functions qw< catdir catfile >;
 use namespace::clean -except => 'meta';
