@@ -1,6 +1,6 @@
 package Bot::Training;
 our $AUTHORITY = 'cpan:AVAR';
-$Bot::Training::VERSION = '0.05';
+$Bot::Training::VERSION = '0.06';
 use 5.010;
 use autodie qw(open close);
 use Class::Load;
@@ -118,7 +118,7 @@ sub run {
 sub _getopt_spec_exception { goto &_getopt_full_usage }
 
 # --help
-sub _getopt_full_usage {
+sub print_usage_text {
     my ($self, $usage, $plain_str) = @_;
 
     # If called from _getopt_spec_exception we get "Unknown option: foo"
@@ -129,7 +129,8 @@ sub _getopt_full_usage {
         my $out = $plain_str // $usage->text;
 
         # The default getopt order sucks, use reverse sort order
-        chomp(my @out = split /^/, $out);
+        my @out = split /^/, $out;
+        chomp @out;
         my $opt = join "\n", sort { $b cmp $a } @out[1 .. $#out];
         ($out[0], $opt);
     };

@@ -9,8 +9,10 @@ build_requires:
   IPC::Open3: '0'
   Test::More: '0'
   lib: '0'
+  perl: '5.010'
 configure_requires:
   ExtUtils::MakeMaker: '0'
+  perl: '5.010'
 dynamic_config: 0
 generated_by: 'Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240'
 license: perl
@@ -44,5 +46,5 @@ resources:
   homepage: http://metacpan.org/release/Bot-Training
   license: http://dev.perl.org/licenses/
   repository: git://github.com/avar/bot-training.git
-version: '0.05'
+version: '0.06'
 x_authority: cpan:AVAR
